@@ -1,6 +1,6 @@
 import random
 
-print("🎯 Welcome to the Number Guessing Game!")
+print(" Welcome to the Number Guessing Game!")
 top_of_range = input("Type the top number: ")
 
 if not top_of_range.isdigit():
@@ -27,11 +27,11 @@ while True:
     user_guess = int(user_guess)
 
     if user_guess == random_number:
-        print("🎉 You got it!")
+        print("You got it!")
         break
     elif user_guess > random_number:
         print("⬆ You were above the number!")
     else:
         print("⬇ You were below the number!")
 
-print(f"🏁 You got it in {guesses} guesses!")
+print(f"You got it in {guesses} guesses!")
